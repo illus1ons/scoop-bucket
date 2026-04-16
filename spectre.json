@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/illus1ons/spectre/releases/download/v0.1.3/spectre-windows-amd64.exe",
-      "hash": "49fec6064f34cb19622eca8bcabd70c241085fd0d737c312d0eed194060ee7d1"
+      "hash": "0228994ea1c654c4645aebd3a94c93aea1b55b146f4cdae4df4c371f3df218f9"
     }
   },
   "bin": [
