@@ -1,0 +1,21 @@
+{
+    "version": "0.1.0",
+    "description": "OpenAPI 스펙 파일 하나로 즉시 실행되는 목서버",
+    "homepage": "https://github.com/illus1ons/spectre",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/illus1ons/spectre/releases/download/v0.1.0/spectre-windows-amd64.exe",
+            "hash": "PLACEHOLDER"
+        }
+    },
+    "bin": [["spectre-windows-amd64.exe", "spectre"]],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/illus1ons/spectre/releases/download/v$version/spectre-windows-amd64.exe"
+            }
+        }
+    }
+}
